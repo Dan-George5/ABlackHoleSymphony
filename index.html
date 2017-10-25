@@ -1,0 +1,97 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="wot-verification" content="4419c5ece5c7ff809238"/>
+    <title>A Black Hole Symphony</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+    <link rel="stylesheet" type="text/css" href="style/pace.css" />
+    <link rel="icon" type="image/x-icon" href="style/favicon.ico" />
+    <script type="text/javascript" src="js/pace.min.js"></script>
+    <script type="text/javascript" src="js/piano.js"></script>
+    <script type="text/javascript" src="js/notes.js"></script>
+    <script type="text/javascript" src="js/translators/translator.js"></script>
+    <script type="text/javascript" src="js/translators/retranslator.js"></script>
+    <script type="text/javascript" src="js/arm.js"></script>
+    <script type="text/javascript" src="js/db/music_list.js"></script>
+    <script async type="text/javascript" src="js/keyboard.js"></script>
+    <script async type="text/javascript" src="js/DOM/window_fnc.js"></script>
+    <script async type="text/javascript" src="js/DOM/index.js"></script>
+    <script async type="text/javascript" src="js/DOM/window_dom.js"></script>
+    <script async type="text/javascript" src="js/lastsession.js"></script>
+<style>
+p.ex1 {
+    margin-right: 100px;
+    margin-left:  100px;
+}
+.important-message {
+   font-weight: bold;
+}
+#content {
+    position: relative;
+}
+
+#content img2 {
+    position: absolute;
+    top: -30px;
+    right: 0px;
+}
+div.scroll { 
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+}
+.header {
+    border:2px solid red;
+}
+
+.header .image {
+    background: url("http://placehold.it/64x64") 
+                no-repeat;
+    width: 65px;
+    height: 65px;
+    border:2px solid green;
+}
+
+.header .text {
+    font: x-large sans-serif;
+    border:2px solid blue;
+}
+
+.header .image, 
+.header .text {
+    display: inline-block;
+    vertical-align: bottom;
+}
+</style>
+</head>
+<body>
+    <center>
+      <font color="white" size="20">
+          A Black Hole Symphony
+      </font>
+    </center>
+    <br>
+    <div style="color:white">
+    <p class="ex1", ,class="important-message"> This was a joint project initiated by Dr. Chad Hanna at the Institute of Gravitation and the Cosmos, and the music department at Penn State University. It was inspired after the initial detection by the Laser Interferometer Gravitational Wave Observatory (LIGO) of a binary black hole evolution that took place around 12 million years ago. Read the theory behind the sounds <a href="https://arxiv.org/pdf/gr-qc/0512160.pdf", style="color:white">here</a> 
+    <br>
+    The audio files were created on Python by <a href="https://www.linkedin.com/in/daniel-george-21a117105", style="color:white">Daniel George</a>, Duncan Meacher and Dr. Chad Hanna 
+    <br>
+    The original code for the virtual piano can be found <a href="https://github.com/otanim/virtual-piano", style="color:white">here</a>
+    </div>
+    <div id="piano">
+        <div id="btns">
+            <div id="styled" class="text" onclick="piano.styler()">Styles</div>
+            <div id="assistd" class="text" onclick="piano.assist()">Key assist Off</div>
+            <div id="recordd" class="text" onclick="win_fnc.viewer('recorder')">Recorder</div>
+            <div id="sheetd" class="text" onclick="win_fnc.viewer('sheet')">Sheets</div>
+        </div>
+        <div id="white"></div>
+        <div id="black"></div>
+        <div id="audio" onerror="location.reload()"></div>
+    </div>
+    <div id='win'></div>
+<div style="color:white" id="footer" class="row" >
+   © Penn State University
+</div>
+</body>
+</html>
