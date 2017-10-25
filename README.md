@@ -1,7 +1,8 @@
-# VirtualPiano
-Browser based virtual piano, based on javascript and HTML5.
+# A Black Hole Symphony
 
-[**Here**](http://otanim.github.io/virtual-piano/) you can try out **Virtul Piano** online.
+A Black Hole musical keyboard based on https://github.com/otanim/virtual-piano
+
+[**Here**](http://georgedan1995.github.io/ABlackHoleSymphony/) you can try out **Virtul Piano** online.
 
 ## Demonstration
 [**YouTube**](https://www.youtube.com/watch?v=jFusXg5g1Gw)
