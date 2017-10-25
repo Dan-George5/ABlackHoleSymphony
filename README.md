@@ -13,9 +13,3 @@ Browser based virtual piano, based on javascript and HTML5.
 ![alt text](https://raw.githubusercontent.com/ArmanYeghiazaryan/VirtualPiano/master/screenshots/sheets.gif "Sheets")
 ### Recorder
 ![alt text](https://raw.githubusercontent.com/ArmanYeghiazaryan/VirtualPiano/master/screenshots/recorder.gif "Recorder")
-
-
-## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
-
-[![Beerpay](https://beerpay.io/otanim/virtual-piano/badge.svg?style=beer-square)](https://beerpay.io/otanim/virtual-piano)  [![Beerpay](https://beerpay.io/otanim/virtual-piano/make-wish.svg?style=flat-square)](https://beerpay.io/otanim/virtual-piano?focus=wish)
