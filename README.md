@@ -2,7 +2,7 @@
 
 A Black Hole musical keyboard based on https://github.com/otanim/virtual-piano
 
-Try out the black hole keyboard here: blackholeinstrument.tk
+Try out the black hole keyboard here: https://blackholeinstrument.tk
 
 ## Demonstration
 [**YouTube**](https://www.youtube.com/watch?v=jFusXg5g1Gw)
